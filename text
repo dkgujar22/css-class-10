@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Class - 10</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>CSS - Class - 10</h1>
+    <pre>Lorem ipsum dolor sit amet <span style="background-color: gold;"> consectetur adipisicing elit. D
+        oloribus illum praesentium</span> quaerat est quis non eveniet. Nostrum num
+        quam ab, itaque incidunt delectus hic veniam, ea autem quos dicta qu\
+        aerat! Vel, quidem quia amet debitis sunt quibusdam facilis 
+         voluptates pariatur dicta sapiente ipsum laudantium architecto dolore
+         s veniam voluptatem neque ducimus magnam aliquam saepe, alias, offici
+         a earum omnis cupiditate? Molestias nesciunt nisi tempora quaerat qua
+         m consequuntur! Impedit similique amet voluptas pariatur, blanditiis 
+         nobis minus autem harum corrupti nam nisi a eum nesciunt, voluptatum o
+         dit ratione, expedita minima asperiores vitae cupiditate. Eligendi
+         vel architecto distinctio facilis quis nesciunt autem fugiat porro cumque?</pre>
+    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. D
+        oloribus illum praesentium quaerat est quis non eveniet. Nostrum num
+        quam ab, itaque incidunt delectus hic veniam, ea autem quos dicta qu\
+        aerat! Vel, quidem quia amet debitis sunt quibusdam facilis 
+         voluptates pariatur dicta sapiente ipsum laudantium architecto dolore
+         s veniam voluptatem neque ducimus magnam aliquam saepe, alias, offici
+         a earum omnis cupiditate? Molestias nesciunt nisi tempora quaerat qua
+         m consequuntur! Impedit similique amet voluptas pariatur, blanditiis 
+         nobis minus autem harum corrupti nam nisi a eum nesciunt, voluptatum o
+         dit ratione, expedita minima asperiores vitae cupiditate. Eligendi
+         vel architecto distinctio facilis quis nesciunt autem fugiat porro cumque?</pre>
+    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. D
+        oloribus illum praesentium quaerat est quis non eveniet. Nostrum num
+        quam ab, itaque incidunt delectus hic veniam, ea autem quos dicta qu\
+        aerat! Vel, quidem quia amet debitis sunt quibusdam facilis 
+         voluptates pariatur dicta sapiente ipsum laudantium architecto dolore
+         s veniam voluptatem neque ducimus magnam aliquam saepe, alias, offici
+         a earum omnis cupiditate? Molestias nesciunt nisi tempora quaerat qua
+         m consequuntur! Impedit similique amet voluptas pariatur, blanditiis 
+         nobis minus autem harum corrupti nam nisi a eum nesciunt, voluptatum o
+         dit ratione, expedita minima asperiores vitae cupiditate. Eligendi
+         vel architecto distinctio facilis quis nesciunt autem fugiat porro cumque?</pre>
+    
+         <br><br><br><br><br>
+         <form action="" style="text-align: center; margin-bottom: 100px;">
+            <input type="text" placeholder="enter your text">
+         </form>
+         <br><br><br><br><br>
+         <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+         </ul>
+         <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+         </ol>
+         <br><br><br><br><br><br><br><br><br><br>
+         <div style="margin-left: 500px;">
+
+             <button>click</button>
+             <br>
+             <input type="text">
+         </div>
+         <br><br><br><br><br><br><br><br><br><br>
+         <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti exercitationem. Ut, at inventore ipsum recusandae qui esse a iste?</p>
+            <br><br><br><br><br>
+            <input type="text" disabled placeholder="write here..">
+            <input type="text" readonly placeholder="write here..">
+            <input type="email" placeholder="write your email">
+            <br><br><br><br><br>
+         </div>
+
+         <br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
+----------------------
+h1{
+    background-color: cadetblue;
+}
+/* flex box */
+
+/* ------------------------------------- */
+/* Pseudo Elements (::)*/
+/* before */
+/* after */
+/* first-line */
+pre::first-letter{
+    /* content: " * "; */
+    background-color: firebrick;
+    color: white;
+    font-size: 100px;
+}
+/* ::placeholder{
+    background-color: aqua;
+    color: darkcyan;
+} */
+::selection{
+    background-color: darkkhaki;
+    color: aliceblue;
+    font-size: 200px;
+}
+::marker{
+    color: blueviolet;
+}
+/* ---------------------------------------------------------- */
+/* Pseudo Class (:)*/
+/* Basic Pseudo Class */
+/* hover */
+/* focus - input*/
+/* active - a/button*/
+button:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+input:focus{
+    background-color: burlywood;
+}
+button:active{
+    background-color: red;
+}
+/* visited / unvisited */
+
+/* ----------------------------- */
+/* 2) Structural Pseudo Class */
+
+/* first-child */
+/* last -child */
+/* nth-child - (any number)*/
+/* n - all */
+/* even - 2n */
+/* odd - 2n + 1 */
+/* p:nth-child(2n+1){
+    background-color: blueviolet;
+} */
+
+/* p:nth-last-child(2n+1){
+    background-color: blueviolet;
+} */
+ p:only-child{
+    background-color: blueviolet;
+}
+
+p:not(.para){
+    background-color: brown;
+}
+input:enabled{
+    background-color: chartreuse;
+}
+input:disabled{
+    background-color: red;
+}
+input:read-only{
+    background-color: khaki;
+}
+input:valid{
+    color: green;
+    border: 10px solid green;
+}
+input:invalid{
+    color: red;
+    border: 10px solid red;
+}

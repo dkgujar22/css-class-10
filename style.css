@@ -1,0 +1,118 @@
+h1{
+    background-color: cadetblue;
+}
+/* flex box */
+
+/* pseudo elements (::) */
+/* before */
+/* after */
+/* first line */
+/* first letter */
+/* pre::before{
+    content: " * ";
+} */
+pre::first-line{
+    /* content: " * "; */
+    background-color: firebrick;
+    color: white;
+}
+pre::first-letter{
+    /* content: " * "; */
+    background-color: firebrick;
+    color: white;
+    font-size: 100px;
+}
+
+/* ::placeholder{
+    background-color: aqua;
+} */
+
+::selection{
+    background-color: darkkhaki;
+    color: aliceblue;
+    font-size: 200px;
+}
+
+::marker{
+    color: blueviolet;
+
+}
+
+/* ----------------- */
+/*1- Basic pseudo class (:) */
+/* hover */
+/* focus:input */
+/* active: anchor tag(a)/button */
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+input:focus{
+    background-color: blueviolet;
+    color: white;
+}
+button:active{
+    background-color: red;
+}
+
+/* visited/unvisited khud se parhni hai hume  */
+
+/* ----------------------------------------- */
+/*2- structural pseudo class  */
+
+/* first child */
+/* last child */
+/* nth-child  -(any number)*/
+/* n -all */
+/* even-2n */
+/* odd 2n+1 */
+
+/* p:nth-child(n){
+    background-color: red;
+} */
+/* works when a element have one child */
+/* p:only-child{
+    background-color: blueviolet;
+} */
+
+p:nth-last-child(2n){
+    background-color: aquamarine;
+}
+/* p:not(.para){
+    background-color: chartreuse;
+} */
+
+/* enable */
+/* disable */
+/* read only  */
+/* valid */
+/* invalid */
+
+input:enabled{
+    background-color: chartreuse;
+}
+
+input:disabled{
+    background-color: khaki;
+}
+input:read-only{
+    background-color: rgb(47, 185, 178);
+}
+input:valid{
+    background-color: green;
+    border: 10px solid rgb(25, 248, 25);
+}
+input:invalid{
+    background-color: red;
+    border: 10px solid rgb(204, 91, 91);
+}
+
+:is(h1,h6,div){
+    background-color: blue;
+}
+
+/* where */
+
+
+
